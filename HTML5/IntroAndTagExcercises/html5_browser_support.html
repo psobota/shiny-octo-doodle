@@ -1,0 +1,87 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>HTML5 browser support detector</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h1>Does your browser support HTML 5?</h1>
+		<p>Check your JS console</p>
+		<script type="text/javascript" src="js/html5_support_detectors.js"></script>
+		<script type="text/javascript">
+			
+			window.onload = function(){
+				var isHtml5Supported = true;
+
+				if(!supports_input_number())
+				{
+					console.log("Input Number not supported");
+					isHtml5Supported = false;
+				}
+
+				if(!supports_input_placeholder())
+				{
+					console.log("Input Placeholder not supported");
+					isHtml5Supported = false;
+				}
+
+				if(!supports_input_autofocus())
+				{
+					console.log("Input Autofocus not supported");
+					isHtml5Supported = false;
+				}
+
+				if(!supports_canvas())
+				{
+					console.log("Canvas not supported");
+					isHtml5Supported = false;
+				}
+				
+				if(!supports_video())
+				{
+					console.log("Video not supported");
+					isHtml5Supported = false;
+				}
+
+				if(!supports_local_storage())
+				{
+					console.log("Local Storage not supported");
+					isHtml5Supported = false;
+				}
+
+				if(!supports_web_workers())
+				{
+					console.log("Web Workers not supported");
+					isHtml5Supported = false;
+				}
+
+				if(!supports_offline())
+				{
+					console.log("Offline not supported");
+					isHtml5Supported = false;
+				}
+			
+				if(!supports_geolocation())
+				{
+					console.log("Geolocation not supported");
+					isHtml5Supported = false;
+				}
+
+				if(!supports_history_api())
+				{
+					console.log("History API not supported");
+					isHtml5Supported = false;
+				}
+
+				if(isHtml5Supported)
+				{
+					console.log("This browser supports HTML5");
+				}
+				else
+				{
+					console.log("This browser does not support HTML5");
+				}
+			}
+		</script>
+	</body>
+</html>
