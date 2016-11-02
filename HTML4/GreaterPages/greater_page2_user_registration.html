@@ -4,57 +4,60 @@
  	<head>
  		<title>Greater page #2 - User Registration</title>
  		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="greater_page2_user_registration.css" type="text/css"/>
  	</head>
  	<body>
+    <div class="content-box">
     <h1>User Registration</h1>
-    <form action="#" method="POST">
+    
+      <form action="#" method="POST">
 
-      <fieldset>
-        <legend>Account data</legend>
-        
-        <label for="email">Email</label>
-        <input type="text" name="email" id="email">
-        <br>
-        
-        <label for="password">Password</label>
-        <input type="password" name="password" id="password">
-        <br>
-      </fieldset>
+        <fieldset>
+          <legend>Account data</legend>
+          
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email">
+          <br>
+          
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password">
+          <br>
+        </fieldset>
 
-      <fieldset>
-        <legend>Personal data</legend>
-        
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name">
-        <br>
-        
-        <input type="radio" name="sex" value="Male"> Male
-        <input type="radio" name="sex" value="Female"> Female
-        <br>
+        <fieldset>
+          <legend>Personal data</legend>
+          
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name">
+          <br>
+          <label for="phone">Phone</label>
+          <input type="text" name="phone" id="phone">
+          <br>
+          <label for="Male">Sex</label>
+          <input type="radio" name="sex" value="Male"> Male
+          <input type="radio" name="sex" value="Female"> Female
+          
+        </fieldset>
 
-        <label for="phone">Phone</label>
-        <input type="text" name="phone" id="phone">
-        <br>
-      </fieldset>
+        <fieldset>
+          <legend>Shipping and billing</legend>
 
-      <fieldset>
-        <legend>Shipping and billing</legend>
+          <label for="country">Country</label>
+          <input type="text" name="country" id="country">
+          <br>
 
-        <label for="country">Country</label>
-        <input type="text" name="country" id="country">
-        <br>
+          <label for="shippingAddress">Shipping address</label>
+          <textarea cols=100 rows=3 name="shippingAddress" id="shippingAddress"></textarea>
+          <br>
 
-        <label for="shippingAddress">Shipping address</label>
-        <textarea cols=100 rows=3 name="shippingAddress" id="shippingAddress"></textarea>
-        <br>
-
-        <label for="billingAddress">Billing address</label>
-        <textarea cols=100 rows=3 name="billingAddress" id="billingAddress"></textarea>
-        <br>
-      </fieldset>
-      <p>
-        <input type="submit">
-      </p>
-    </form>
+          <label for="billingAddress">Billing address</label>
+          <textarea cols=100 rows=3 name="billingAddress" id="billingAddress"></textarea>
+          <br>
+        </fieldset>
+        <p>
+          <input type="submit">
+        </p>
+      </form>
+    </div>
   </body>
 </html>

@@ -1,0 +1,40 @@
+.content-box{
+  margin: auto;
+  width: 960px; 
+}
+
+fieldset {
+    border: 5px solid lightblue;
+}
+
+fieldset legend {
+    padding: 5px 10px ;
+    font-size: 32px;
+    margin-left: 20px;
+}
+
+fieldset label {
+  	float:left;
+  	width:100px;
+  	margin-right:0.5em;
+  	padding-top:0.2em;
+  	text-align:right;
+  	font-weight:bold;
+ }
+
+input, textarea{
+    padding:5px; 
+    border:2px solid lightgray; 
+    border-radius: 5px;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background: lightblue;
+    font-weight: bold; 
+    border:0 none;
+    cursor:pointer;
+    border-radius: 5px; 
+    font-size: 14px;
+}
+
