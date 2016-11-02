@@ -1,0 +1,52 @@
+.container{
+  margin: auto;
+  width: 600px; 
+}
+
+fieldset {
+    border: 5px solid lightblue;
+}
+
+fieldset legend {
+    padding: 5px 10px ;
+    font-size: 32px;
+    margin-left: 20px;
+}
+
+fieldset label {
+  	float:left;
+  	width:200px;
+  	margin-right:0.5em;
+  	padding-top:0.2em;
+  	text-align:right;
+  	font-weight:bold;
+ }
+
+input, textarea{
+    padding:5px; 
+    border:2px solid lightgray; 
+    border-radius: 5px;
+}
+
+input[type=submit] {
+    color:white;
+    padding:10px 15px; 
+    background: #2e7d32;
+    font-weight: bold; 
+    border:0 none;
+    cursor:pointer;
+    border-radius: 5px; 
+    font-size: 14px;
+}
+
+input[type=reset] {
+    color:white;
+    padding:10px 15px; 
+    background: #b71c1c ;
+    font-weight: bold; 
+    border:0 none;
+    cursor:pointer;
+    border-radius: 5px; 
+    font-size: 14px;
+}
+
