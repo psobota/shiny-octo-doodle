@@ -3,39 +3,44 @@
  	<head>
  		<title>Calendar | Simple page #1</title>
  		<meta charset="utf-8">
+ 		<link rel="stylesheet" href="simple_page1_calendar.css" type="text/css"/>
  	</head>
  	<body>
- 		<header>
- 			<h1>November 2016</h1>
- 		</header>
  		<main>
-	 		<table>
-	 			<colgroup>
-	 				<col><col><col><col><col><col><col style="background-color: #ff8080;">
-	 			</colgroup>
-		 		<thead>
-		 			<tr>
-		 				<th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Satruday</th><th>Sunday</th>
-		 			</tr>
-		 		</thead>
-		 		<tbody>
-		 			<tr>
-		 				<td style="color: gray">31</td><td style="font-weight: bold; color: red"><abbr title="All Saints' Day">1</abbr></td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td>
-		 			</tr>
-		 			<tr>
-		 				<td>7</td><td>8</td><td>9</td><td>10</td><td style="font-weight: bold; color: red"><abbr title="National Independence Day">11</abbr></td><td>12</td><td>13</td>
-		 			</tr>
-		 			<tr>
-		 				<td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td>
-		 			</tr>
-		 			<tr>
-		 				<td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td>
-		 			</tr>
-		 			<tr>
-		 				<td>28</td><td>29</td><td>30</td><td style="color: gray">1</td><td style="color: gray">2</td><td style="color: gray">3</td><td style="color: gray">4</td>
-		 			</tr>
-		 		</tbody>
-		 	</table>
+ 			<div class="container">
+ 				<div class="container-wrapper">
+		 			<div class="center">
+ 						<h1>November 2016</h1>
+	 					<table>
+				 			<colgroup>
+				 				<col><col><col><col><col><col><col class="holiday">
+				 			</colgroup>
+					 		<thead>
+					 			<tr>
+					 				<th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Satruday</th><th>Sunday</th>
+					 			</tr>
+					 		</thead>
+					 		<tbody>
+					 			<tr>
+					 				<td class="not-active">31</td><td class="holiday"><abbr title="All Saints' Day">1</abbr></td><td>2</td><td>3</td><td>4</td><td>5</td><td class="holiday">6</td>
+					 			</tr>
+					 			<tr>
+					 				<td>7</td><td>8</td><td>9</td><td>10</td><td class="holiday"><abbr title="National Independence Day">11</abbr></td><td>12</td><td class="holiday">13</td>
+					 			</tr>
+					 			<tr>
+					 				<td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td class="holiday">20</td>
+					 			</tr>
+					 			<tr>
+					 				<td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td class="holiday">27</td>
+					 			</tr>
+					 			<tr>
+					 				<td>28</td><td>29</td><td>30</td><td class="not-active">1</td><td class="not-active">2</td><td class="not-active">3</td><td class="not-active">4</td>
+					 			</tr>
+					 		</tbody>
+					 	</table>
+					 </div>
+				</div>
+			</div>
 		 </main>	
  	</body>
  </html>
