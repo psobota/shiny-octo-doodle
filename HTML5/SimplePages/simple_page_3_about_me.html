@@ -4,37 +4,51 @@
  		<title>About Me | Simple page #3</title>
  		<meta charset="utf-8">
  		<meta name="author" content ="Pawel Sobota">
+ 		<link rel="stylesheet" href="simple_page3_about_me.css" type="text/css"/>
 	</head>
  	<body> 	
- 		<header>
- 			<h1>Paweł Sobota</h1>
+ 		<header class="header-box">
+ 			<div class="container">
+ 				<h1>About me</h1>
+ 				<q>It is not a bug, It is a feature!</q>
+ 			</div>
  		</header>
  		<main>
-	 		<p>
-	 			<q>It is not a bug, It is a feature!</q>
-	 		</p>
-	 		<p>
-	 			<img width="156" height="200" src="simple_page_3_about_me/pawel_sobota.jpg" alt="Pawel's picture">
-	 		</p>
-	 		<p>
-	 			Hi, I'm Paweł. Here you can find some info about me.
-	 		</p>
- 			<details>
- 				<summary>Personal Details</summary>
- 				<p>
- 					I like cookies.
- 				</p>
- 			</details>
+ 			<div class="container">
+ 				<div class="floating-box main-content">
+			 		<p>
+			 			
+			 		</p>
+			 		<p>
+			 			Hi, I'm Paweł. Here you can find some info about me.
+			 		</p>
+			 		<p>
+					I'm software engineer with experience in .NET technologies, like 
+					<b>ASP .NET MVC, WPF, Silverlight, TSQL, Entity Framework...</b>
+				</p>
+		 			<details>
+		 				<summary>Personal Details</summary>
+		 				<p>
+		 					I like cookies.
+		 				</p>
+		 			</details>
 
-			<details>
- 				<summary>List of front-end technologies I know</summary>
- 					<ul>
-			 			<li>HTML</li>
-			 			<li>JS</li>
-			 			<li>CSS</li>
-			 		</ul>
+					<details>
+		 				<summary>List of front-end technologies I know</summary>
+		 					<ul>
+					 			<li>HTML</li>
+					 			<li>JS</li>
+					 			<li>CSS</li>
+					 		</ul>
 
- 			</details>
+		 			</details>
+		 		</div>
+		 		<div class="floating-box">
+	 			<p>
+			 		<img src="simple_page_3_about_me/pawel_sobota.png" alt="Pawel's picture">
+				</p>
+		 	</div>
+	 		</div>
 	 	</main>
  	</body>
  </html>
